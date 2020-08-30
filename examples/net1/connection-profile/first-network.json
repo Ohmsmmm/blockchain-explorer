@@ -8,7 +8,7 @@
 			"password": "exploreradminpw"
 		},
 		"enableAuthentication": true,
-		"organization": "Org1MSP",
+		"organization": "MoonLaNiTiSukJaiMSP",
 		"connection": {
 			"timeout": {
 				"peer": {
@@ -21,7 +21,7 @@
 	"channels": {
 		"mychannel": {
 			"peers": {
-				"peer0.org1.example.com": {}
+				"peer1.MoonLaNiTiSukJai.example.com": {}
 			},
 			"connection": {
 				"timeout": {
@@ -35,23 +35,23 @@
 		}
 	},
 	"organizations": {
-		"Org1MSP": {
-			"mspid": "Org1MSP",
+		"MoonLaNiTiSukJaiMSP": {
+			"mspid": "MoonLaNiTiSukJaiMSP",
 			"adminPrivateKey": {
-				"path": "/tmp/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/priv_sk"
+				"path": "/tmp/crypto/peerOrganizations/MoonLaNiTiSukJai.example.com/users/Admin@MoonLaNiTiSukJai.example.com/msp/keystore/8e55615138d0dc89e6d4d50fd6211fd9f1cc3e468ec4fcd80fa1f412d981daaa_sk"
 			},
-			"peers": ["peer0.org1.example.com"],
+			"peers": ["peer1.MoonLaNiTiSukJai.example.com"],
 			"signedCert": {
-				"path": "/tmp/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem"
+				"path": "/tmp/crypto/peerOrganizations/MoonLaNiTiSukJai.example.com/users/Admin@MoonLaNiTiSukJai.example.com/msp/signcerts/Admin@MoonLaNiTiSukJai.example.com-cert.pem"
 			}
 		}
 	},
 	"peers": {
-		"peer0.org1.example.com": {
+		"peer1.MoonLaNiTiSukJai.example.com": {
 			"tlsCACerts": {
-				"path": "/tmp/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
+				"path": "/tmp/crypto/peerOrganizations/MoonLaNiTiSukJai.example.com/peers/peer1.MoonLaNiTiSukJai.example.com/tls/ca.crt"
 			},
-			"url": "grpcs://peer0.org1.example.com:7051"
+			"url": "grpcs://peer1.MoonLaNiTiSukJai.example.com:7051"
 		}
 	}
 }
